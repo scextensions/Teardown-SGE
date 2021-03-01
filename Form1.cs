@@ -19,11 +19,13 @@ namespace Teardown_SGE
             XmlReaderSettings settings = new XmlReaderSettings();
             settings.IgnoreWhitespace = true;
             settings.IgnoreComments = true;
+            settings.CheckCharacters = false;
+            settings.ConformanceLevel = ConformanceLevel.Fragment;
             XmlReader reader = XmlReader.Create(fileName, settings);
             while (reader.Read())
             {
-                Trace.Write(new string(' ', reader.Depth * 2));
-                Trace.WriteLine(reader.NodeType);
+                Console.Write(new string(' ', reader.Depth * 2));
+                Console.WriteLine(reader.Name);
             }
         }
     }

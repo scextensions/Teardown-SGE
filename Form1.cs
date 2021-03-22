@@ -84,20 +84,22 @@ namespace Teardown_SGE
 
         private void SetNumericClamped(NumericUpDown updown, decimal val)
         {
-            updown.Value = DecimalClamp(val, updown.Minimum, updown.Maximum);
+            if (updown != null) updown.Value = DecimalClamp(val, updown.Minimum, updown.Maximum);
+            else return;
         } 
 
         private Control GetControl(string name)
         {
-            return this.Controls.Find(name, true)[0];
+            if (Controls.Find(name, true).Length > 0) return Controls.Find(name, true)[0];
+            return null;
         }
 
         private void SetMission(XmlNode mission, string missionId)
         {
             XmlNode missionType = mission.SelectNodes(missionId)[0];
-            SetNumericClamped((NumericUpDown)this.Controls.Find(missionId + "Score", true)[0], GetLevelScore(missionType));
-            SetNumericClamped((NumericUpDown)this.Controls.Find(missionId + "TimeLeft", true)[0], GetLevelTimeLeft(missionType));
-            SetNumericClamped((NumericUpDown)this.Controls.Find(missionId + "MissionTime", true)[0], GetLevelMissionTime(missionType));
+            SetNumericClamped((NumericUpDown)GetControl(missionId + "Score"), GetLevelScore(missionType));
+            SetNumericClamped((NumericUpDown)GetControl(missionId + "TimeLeft"), GetLevelTimeLeft(missionType));
+            SetNumericClamped((NumericUpDown)GetControl(missionId + "MissionTime"), GetLevelMissionTime(missionType));
         }
 
         private void LoadSaveData()
@@ -127,109 +129,24 @@ namespace Teardown_SGE
                 SetMission(mission, "mall_intro");
                 SetMission(mission, "lee_computers");
                 SetMission(mission, "lee_login");
-                SetMission(mission, "mall_intro");
-                SetMission(mission, "mall_intro");
-                SetMission(mission, "mall_intro");
-
-                XmlNode lee_computers = mission.SelectNodes("lee_computers")[0];
-                SetNumericClamped(lee_computersScore, GetLevelScore(lee_computers));
-                SetNumericClamped(lee_computersTimeLeft, GetLevelTimeLeft(lee_computers));
-                SetNumericClamped(lee_computersMissionTime, GetLevelMissionTime(lee_computers));
-
-                XmlNode lee_login = mission.SelectNodes("lee_login")[0];
-                SetNumericClamped(lee_loginScore, GetLevelScore(lee_login));
-                SetNumericClamped(lee_loginTimeLeft, GetLevelTimeLeft(lee_login));
-                SetNumericClamped(lee_loginMissionTime, GetLevelMissionTime(lee_login));
-
-                XmlNode marina_demolish = mission.SelectNodes("marina_demolish")[0];
-                SetNumericClamped(marina_demolishScore, GetLevelScore(marina_demolish));
-                SetNumericClamped(marina_demolishTimeLeft, GetLevelTimeLeft(marina_demolish));
-                SetNumericClamped(marina_demolishMissionTime, GetLevelMissionTime(marina_demolish));
-
-                XmlNode marina_cars = mission.SelectNodes("marina_cars")[0];
-                SetNumericClamped(marina_carsScore, GetLevelScore(marina_cars));
-                SetNumericClamped(marina_carsTimeLeft, GetLevelTimeLeft(marina_cars));
-                SetNumericClamped(marina_carsMissionTime, GetLevelMissionTime(marina_cars));
-
-                XmlNode marina_gps = mission.SelectNodes("marina_gps")[0];
-                SetNumericClamped(marina_gpsScore, GetLevelScore(marina_gps));
-                SetNumericClamped(marina_gpsTimeLeft, GetLevelTimeLeft(marina_gps));
-                SetNumericClamped(marina_gpsMissionTime, GetLevelMissionTime(marina_gps));
-
-                XmlNode mansion_pool = mission.SelectNodes("mansion_pool")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(mansion_pool));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(mansion_pool));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(mansion_pool));
-
-                XmlNode lee_safe = mission.SelectNodes("lee_safe")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(lee_safe));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(lee_safe));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(lee_safe));
-
-                XmlNode lee_tower = mission.SelectNodes("lee_tower")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(lee_tower));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(lee_tower));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(lee_tower));
-
-                XmlNode mansion_art = mission.SelectNodes("mansion_art")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(mansion_art));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(mansion_art));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(mansion_art));
-
-                XmlNode marina_tools = mission.SelectNodes("marina_tools")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(marina_tools));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(marina_tools));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(marina_tools));
-
-                XmlNode marina_art_back = mission.SelectNodes("marina_art_back")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(marina_art_back));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(marina_art_back));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(marina_art_back));
-
-                XmlNode mansion_fraud = mission.SelectNodes("mansion_fraud")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(mansion_fraud));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(mansion_fraud));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(mansion_fraud));
-
-                XmlNode caveisland_computers = mission.SelectNodes("caveisland_computers")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(caveisland_computers));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(caveisland_computers));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(caveisland_computers));
-
-                XmlNode mansion_race = mission.SelectNodes("mansion_race")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(mansion_race));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(mansion_race));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(mansion_race));
-
-                XmlNode mansion_safe = mission.SelectNodes("mansion_safe")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(mansion_safe));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(mansion_safe));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(mansion_safe));
-
-                XmlNode lee_powerplant = mission.SelectNodes("lee_powerplant")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(lee_powerplant));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(lee_powerplant));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(lee_powerplant));
-
-                XmlNode caveisland_propane = mission.SelectNodes("caveisland_propane")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(caveisland_propane));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(caveisland_propane));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(caveisland_propane));
-
-                XmlNode caveisland_dishes = mission.SelectNodes("caveisland_dishes")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(caveisland_dishes));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(caveisland_dishes));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(caveisland_dishes));
-
-                XmlNode lee_flooding = mission.SelectNodes("lee_flooding")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(lee_flooding));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(lee_flooding));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(lee_flooding));
-
-                XmlNode frustrum_chase = mission.SelectNodes("frustrum_chase")[0];
-                SetNumericClamped(mansion_poolScore, GetLevelScore(frustrum_chase));
-                SetNumericClamped(mansion_poolTimeLeft, GetLevelTimeLeft(frustrum_chase));
-                SetNumericClamped(mansion_poolMissionTime, GetLevelMissionTime(frustrum_chase));
+                SetMission(mission, "marina_demolish");
+                SetMission(mission, "marina_cars");
+                SetMission(mission, "marina_gps");
+                SetMission(mission, "mansion_pool");
+                SetMission(mission, "lee_safe");
+                SetMission(mission, "lee_tower");
+                SetMission(mission, "mansion_art");
+                SetMission(mission, "marina_tools");
+                SetMission(mission, "marina_art_back");
+                SetMission(mission, "mansion_fraud");
+                SetMission(mission, "caveisland_computers");
+                SetMission(mission, "mansion_race");
+                SetMission(mission, "mansion_safe");
+                SetMission(mission, "lee_powerplant");
+                SetMission(mission, "caveisland_propane");
+                SetMission(mission, "caveisland_dishes");
+                SetMission(mission, "lee_flooding");
+                SetMission(mission, "frustrum_chase");
             }
 
             //int currentPosition = 0;
@@ -249,12 +166,12 @@ namespace Teardown_SGE
             if (NodeExists(hub = xmlDoc.GetElementsByTagName("hub")[0]))
             {
                 XmlNode score;
-                if (NodeExists(score = hub.SelectNodes("score")[0])) scoreNumeric.Value = int.Parse(score.Attributes["value"].Value);
+                if (NodeExists(score = hub.SelectNodes("score")[0])) SetNumericClamped(scoreNumeric, new decimal(float.Parse(score.Attributes["value"].Value)));
                 else scoreNumeric.Value = 0;
             }
-
+            
             XmlNode cash;
-            if (NodeExists(cash = xmlDoc.GetElementsByTagName("cash")[0])) cashNumeric.Value = int.Parse(cash.Attributes["value"].Value);
+            if (NodeExists(cash = xmlDoc.GetElementsByTagName("cash")[0])) SetNumericClamped(cashNumeric, new decimal(float.Parse(cash.Attributes["value"].Value)));
             else cashNumeric.Value = 0;
 
             XmlNode reward;
@@ -277,6 +194,29 @@ namespace Teardown_SGE
             return toolElm;
         }
 
+        private void CreateMissionElement(XmlElement mission, XmlDocument doc, string missionId)
+        {
+            CheckBox missionCheck = (CheckBox)GetControl(missionId + "Enabled");
+            NumericUpDown score = (NumericUpDown)GetControl(missionId + "Score");
+            NumericUpDown timeLeft = (NumericUpDown)GetControl(missionId + "TimeLeft");
+            NumericUpDown missionTime = (NumericUpDown)GetControl(missionId + "MissionTime");
+            XmlElement scoreElement = doc.CreateElement(string.Empty, "score", string.Empty);
+            XmlElement leftElement = doc.CreateElement(string.Empty, "timeleft", string.Empty);
+            XmlElement timeElement = doc.CreateElement(string.Empty, "missiontime", string.Empty);
+            if (missionCheck.Checked)
+            {
+                scoreElement.SetAttribute("value", score.Value.ToString());
+                leftElement.SetAttribute("value", timeLeft.Value.ToString());
+                timeElement.SetAttribute("value", missionTime.Value.ToString());
+            }   
+            else return;
+            XmlElement missionType = doc.CreateElement(string.Empty, missionId, string.Empty);
+            missionType.AppendChild(scoreElement);
+            missionType.AppendChild(leftElement);
+            missionType.AppendChild(timeElement);
+            mission.AppendChild(missionType);
+        }
+
         private void SaveSaveData()
         {
             XmlDocument xmlDoc = new XmlDocument();
@@ -295,22 +235,27 @@ namespace Teardown_SGE
             XmlElement mission = xmlDoc.CreateElement(string.Empty, "mission", string.Empty);
             savegame.AppendChild(mission);
 
-            XmlElement mall_intro = xmlDoc.CreateElement(string.Empty, "mall_intro", string.Empty);
-            mission.AppendChild(mall_intro);
-            XmlElement lee_computers = xmlDoc.CreateElement(string.Empty, "lee_computers", string.Empty);
-            mission.AppendChild(lee_computers);
-            XmlElement lee_login = xmlDoc.CreateElement(string.Empty, "lee_login", string.Empty);
-            mission.AppendChild(lee_login);
-            XmlElement marina_demolish = xmlDoc.CreateElement(string.Empty, "marina_demolish", string.Empty);
-            mission.AppendChild(marina_demolish);
-            XmlElement marina_cars = xmlDoc.CreateElement(string.Empty, "marina_cars", string.Empty);
-            mission.AppendChild(marina_cars);
-            XmlElement marina_gps = xmlDoc.CreateElement(string.Empty, "marina_gps", string.Empty);
-            mission.AppendChild(marina_gps);
-            XmlElement mansion_pool = xmlDoc.CreateElement(string.Empty, "mansion_pool", string.Empty);
-            mission.AppendChild(mansion_pool);
-            XmlElement lee_safe = xmlDoc.CreateElement(string.Empty, "lee_safe", string.Empty);
-            mission.AppendChild(lee_safe);
+            CreateMissionElement(mission, xmlDoc, "mall_intro");
+            CreateMissionElement(mission, xmlDoc, "lee_computers");
+            CreateMissionElement(mission, xmlDoc, "lee_login");
+            CreateMissionElement(mission, xmlDoc, "marina_demolish");
+            CreateMissionElement(mission, xmlDoc, "marina_cars");
+            CreateMissionElement(mission, xmlDoc, "marina_gps");
+            CreateMissionElement(mission, xmlDoc, "mansion_pool");
+            CreateMissionElement(mission, xmlDoc, "lee_safe");
+            CreateMissionElement(mission, xmlDoc, "lee_tower");
+            CreateMissionElement(mission, xmlDoc, "mansion_art");
+            CreateMissionElement(mission, xmlDoc, "marina_art_back");
+            CreateMissionElement(mission, xmlDoc, "marina_tools");
+            CreateMissionElement(mission, xmlDoc, "mansion_fraud");
+            CreateMissionElement(mission, xmlDoc, "caveisland_computers");
+            CreateMissionElement(mission, xmlDoc, "mansion_safe");
+            CreateMissionElement(mission, xmlDoc, "mansion_race");
+            CreateMissionElement(mission, xmlDoc, "lee_powerplant");
+            CreateMissionElement(mission, xmlDoc, "caveisland_propane");
+            CreateMissionElement(mission, xmlDoc, "caveisland_dishes");
+            CreateMissionElement(mission, xmlDoc, "lee_flooding");
+            CreateMissionElement(mission, xmlDoc, "frustrum_chase");
 
             XmlElement hub = xmlDoc.CreateElement(string.Empty, "hub", string.Empty);
             savegame.AppendChild(hub);
@@ -370,7 +315,7 @@ namespace Teardown_SGE
             }
             savegame.AppendChild(reward);
             xmlDoc.AppendChild(registry);
-            var fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Teardown\\savegame2.xml");
+            var fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Teardown\\savegame.xml");
             using (StreamWriter xmlSw = new StreamWriter(fileName, false))
             {
                 MemoryStream mStream = new MemoryStream();

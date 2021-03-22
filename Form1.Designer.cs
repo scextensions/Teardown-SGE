@@ -59,7 +59,7 @@
             this.marina_demolishEnabled = new System.Windows.Forms.CheckBox();
             this.marina_carsEnabled = new System.Windows.Forms.CheckBox();
             this.lee_safeEnabled = new System.Windows.Forms.CheckBox();
-            this.marina_poolEnabled = new System.Windows.Forms.CheckBox();
+            this.mansion_poolEnabled = new System.Windows.Forms.CheckBox();
             this.marina_gpsEnabled = new System.Windows.Forms.CheckBox();
             this.label41 = new System.Windows.Forms.Label();
             this.lee_safeMissionTime = new System.Windows.Forms.NumericUpDown();
@@ -148,14 +148,102 @@
             this.lee_towerScore = new System.Windows.Forms.NumericUpDown();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.mansion_artEnabled = new System.Windows.Forms.CheckBox();
             this.label49 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.mansion_artMissionTime = new System.Windows.Forms.NumericUpDown();
             this.label50 = new System.Windows.Forms.Label();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.mansion_artTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.mansion_artScore = new System.Windows.Forms.NumericUpDown();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
+            this.marina_art_backEnabled = new System.Windows.Forms.CheckBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.marina_art_backMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label54 = new System.Windows.Forms.Label();
+            this.marina_art_backTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.marina_art_backScore = new System.Windows.Forms.NumericUpDown();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.marina_toolsEnabled = new System.Windows.Forms.CheckBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.marina_toolsMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label58 = new System.Windows.Forms.Label();
+            this.marina_toolsTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.marina_toolsScore = new System.Windows.Forms.NumericUpDown();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.mansion_fraudEnabled = new System.Windows.Forms.CheckBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.mansion_fraudMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label62 = new System.Windows.Forms.Label();
+            this.mansion_fraudTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.mansion_fraudScore = new System.Windows.Forms.NumericUpDown();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.caveisland_computersEnabled = new System.Windows.Forms.CheckBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.caveisland_computersMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label66 = new System.Windows.Forms.Label();
+            this.caveisland_computersTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.caveisland_computersScore = new System.Windows.Forms.NumericUpDown();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label68 = new System.Windows.Forms.Label();
+            this.mansion_safeEnabled = new System.Windows.Forms.CheckBox();
+            this.label69 = new System.Windows.Forms.Label();
+            this.mansion_safeMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label70 = new System.Windows.Forms.Label();
+            this.mansion_safeTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.mansion_safeScore = new System.Windows.Forms.NumericUpDown();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.mansion_raceEnabled = new System.Windows.Forms.CheckBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.mansion_raceMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label74 = new System.Windows.Forms.Label();
+            this.mansion_raceTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.mansion_raceScore = new System.Windows.Forms.NumericUpDown();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.lee_powerplantEnabled = new System.Windows.Forms.CheckBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.lee_powerplantMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label79 = new System.Windows.Forms.Label();
+            this.lee_powerplantTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.lee_powerplantScore = new System.Windows.Forms.NumericUpDown();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.caveisland_propaneEnabled = new System.Windows.Forms.CheckBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.caveisland_propaneMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label83 = new System.Windows.Forms.Label();
+            this.caveisland_propaneTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.caveisland_propaneScore = new System.Windows.Forms.NumericUpDown();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.caveisland_dishesEnabled = new System.Windows.Forms.CheckBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.caveisland_dishesMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label87 = new System.Windows.Forms.Label();
+            this.caveisland_dishesTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.caveisland_dishesScore = new System.Windows.Forms.NumericUpDown();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.lee_floodingEnabled = new System.Windows.Forms.CheckBox();
+            this.label90 = new System.Windows.Forms.Label();
+            this.lee_floodingMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label91 = new System.Windows.Forms.Label();
+            this.lee_floodingTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.lee_floodingScore = new System.Windows.Forms.NumericUpDown();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.frustrum_chaseEnabled = new System.Windows.Forms.CheckBox();
+            this.label94 = new System.Windows.Forms.Label();
+            this.frustrum_chaseMissionTime = new System.Windows.Forms.NumericUpDown();
+            this.label95 = new System.Windows.Forms.Label();
+            this.frustrum_chaseTimeLeft = new System.Windows.Forms.NumericUpDown();
+            this.frustrum_chaseScore = new System.Windows.Forms.NumericUpDown();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
             this.generalSettingsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cashNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scoreNumeric)).BeginInit();
@@ -189,9 +277,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerMissionTime)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerTimeLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerScore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseMissionTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseTimeLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseScore)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -482,12 +603,100 @@
             // 
             this.levelSettingsPanel.AutoScroll = true;
             this.levelSettingsPanel.BackColor = System.Drawing.Color.Black;
-            this.levelSettingsPanel.Controls.Add(this.checkBox2);
+            this.levelSettingsPanel.Controls.Add(this.frustrum_chaseEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label94);
+            this.levelSettingsPanel.Controls.Add(this.frustrum_chaseMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label95);
+            this.levelSettingsPanel.Controls.Add(this.frustrum_chaseTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.frustrum_chaseScore);
+            this.levelSettingsPanel.Controls.Add(this.label96);
+            this.levelSettingsPanel.Controls.Add(this.label97);
+            this.levelSettingsPanel.Controls.Add(this.lee_floodingEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label90);
+            this.levelSettingsPanel.Controls.Add(this.lee_floodingMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label91);
+            this.levelSettingsPanel.Controls.Add(this.lee_floodingTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.lee_floodingScore);
+            this.levelSettingsPanel.Controls.Add(this.label92);
+            this.levelSettingsPanel.Controls.Add(this.label93);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_dishesEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label86);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_dishesMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label87);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_dishesTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_dishesScore);
+            this.levelSettingsPanel.Controls.Add(this.label88);
+            this.levelSettingsPanel.Controls.Add(this.label89);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_propaneEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label82);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_propaneMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label83);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_propaneTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_propaneScore);
+            this.levelSettingsPanel.Controls.Add(this.label84);
+            this.levelSettingsPanel.Controls.Add(this.label85);
+            this.levelSettingsPanel.Controls.Add(this.lee_powerplantEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label78);
+            this.levelSettingsPanel.Controls.Add(this.lee_powerplantMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label79);
+            this.levelSettingsPanel.Controls.Add(this.lee_powerplantTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.lee_powerplantScore);
+            this.levelSettingsPanel.Controls.Add(this.label80);
+            this.levelSettingsPanel.Controls.Add(this.label81);
+            this.levelSettingsPanel.Controls.Add(this.mansion_raceEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label73);
+            this.levelSettingsPanel.Controls.Add(this.mansion_raceMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label74);
+            this.levelSettingsPanel.Controls.Add(this.mansion_raceTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.mansion_raceScore);
+            this.levelSettingsPanel.Controls.Add(this.label75);
+            this.levelSettingsPanel.Controls.Add(this.label76);
+            this.levelSettingsPanel.Controls.Add(this.mansion_safeEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label69);
+            this.levelSettingsPanel.Controls.Add(this.mansion_safeMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label70);
+            this.levelSettingsPanel.Controls.Add(this.mansion_safeTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.mansion_safeScore);
+            this.levelSettingsPanel.Controls.Add(this.label71);
+            this.levelSettingsPanel.Controls.Add(this.label72);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_computersEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label65);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_computersMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label66);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_computersTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.caveisland_computersScore);
+            this.levelSettingsPanel.Controls.Add(this.label67);
+            this.levelSettingsPanel.Controls.Add(this.label68);
+            this.levelSettingsPanel.Controls.Add(this.mansion_fraudEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label61);
+            this.levelSettingsPanel.Controls.Add(this.mansion_fraudMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label62);
+            this.levelSettingsPanel.Controls.Add(this.mansion_fraudTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.mansion_fraudScore);
+            this.levelSettingsPanel.Controls.Add(this.label63);
+            this.levelSettingsPanel.Controls.Add(this.label64);
+            this.levelSettingsPanel.Controls.Add(this.marina_toolsEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label57);
+            this.levelSettingsPanel.Controls.Add(this.marina_toolsMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label58);
+            this.levelSettingsPanel.Controls.Add(this.marina_toolsTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.marina_toolsScore);
+            this.levelSettingsPanel.Controls.Add(this.label59);
+            this.levelSettingsPanel.Controls.Add(this.label60);
+            this.levelSettingsPanel.Controls.Add(this.marina_art_backEnabled);
+            this.levelSettingsPanel.Controls.Add(this.label53);
+            this.levelSettingsPanel.Controls.Add(this.marina_art_backMissionTime);
+            this.levelSettingsPanel.Controls.Add(this.label54);
+            this.levelSettingsPanel.Controls.Add(this.marina_art_backTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.marina_art_backScore);
+            this.levelSettingsPanel.Controls.Add(this.label55);
+            this.levelSettingsPanel.Controls.Add(this.label56);
+            this.levelSettingsPanel.Controls.Add(this.mansion_artEnabled);
             this.levelSettingsPanel.Controls.Add(this.label49);
-            this.levelSettingsPanel.Controls.Add(this.numericUpDown7);
+            this.levelSettingsPanel.Controls.Add(this.mansion_artMissionTime);
             this.levelSettingsPanel.Controls.Add(this.label50);
-            this.levelSettingsPanel.Controls.Add(this.numericUpDown8);
-            this.levelSettingsPanel.Controls.Add(this.numericUpDown9);
+            this.levelSettingsPanel.Controls.Add(this.mansion_artTimeLeft);
+            this.levelSettingsPanel.Controls.Add(this.mansion_artScore);
             this.levelSettingsPanel.Controls.Add(this.label51);
             this.levelSettingsPanel.Controls.Add(this.label52);
             this.levelSettingsPanel.Controls.Add(this.lee_towerEnabled);
@@ -504,7 +713,7 @@
             this.levelSettingsPanel.Controls.Add(this.marina_demolishEnabled);
             this.levelSettingsPanel.Controls.Add(this.marina_carsEnabled);
             this.levelSettingsPanel.Controls.Add(this.lee_safeEnabled);
-            this.levelSettingsPanel.Controls.Add(this.marina_poolEnabled);
+            this.levelSettingsPanel.Controls.Add(this.mansion_poolEnabled);
             this.levelSettingsPanel.Controls.Add(this.marina_gpsEnabled);
             this.levelSettingsPanel.Controls.Add(this.label41);
             this.levelSettingsPanel.Controls.Add(this.lee_safeMissionTime);
@@ -642,17 +851,17 @@
             this.lee_safeEnabled.Text = "Enabled";
             this.lee_safeEnabled.UseVisualStyleBackColor = false;
             // 
-            // marina_poolEnabled
+            // mansion_poolEnabled
             // 
-            this.marina_poolEnabled.AutoSize = true;
-            this.marina_poolEnabled.BackColor = System.Drawing.Color.Black;
-            this.marina_poolEnabled.ForeColor = System.Drawing.Color.White;
-            this.marina_poolEnabled.Location = new System.Drawing.Point(97, 597);
-            this.marina_poolEnabled.Name = "marina_poolEnabled";
-            this.marina_poolEnabled.Size = new System.Drawing.Size(65, 17);
-            this.marina_poolEnabled.TabIndex = 59;
-            this.marina_poolEnabled.Text = "Enabled";
-            this.marina_poolEnabled.UseVisualStyleBackColor = false;
+            this.mansion_poolEnabled.AutoSize = true;
+            this.mansion_poolEnabled.BackColor = System.Drawing.Color.Black;
+            this.mansion_poolEnabled.ForeColor = System.Drawing.Color.White;
+            this.mansion_poolEnabled.Location = new System.Drawing.Point(97, 597);
+            this.mansion_poolEnabled.Name = "mansion_poolEnabled";
+            this.mansion_poolEnabled.Size = new System.Drawing.Size(65, 17);
+            this.mansion_poolEnabled.TabIndex = 59;
+            this.mansion_poolEnabled.Text = "Enabled";
+            this.mansion_poolEnabled.UseVisualStyleBackColor = false;
             // 
             // marina_gpsEnabled
             // 
@@ -1707,85 +1916,85 @@
             this.label48.TabIndex = 66;
             this.label48.Text = "Lee Tower";
             // 
-            // checkBox2
+            // mansion_artEnabled
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.Black;
-            this.checkBox2.ForeColor = System.Drawing.Color.White;
-            this.checkBox2.Location = new System.Drawing.Point(97, 882);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(65, 17);
-            this.checkBox2.TabIndex = 81;
-            this.checkBox2.Text = "Enabled";
-            this.checkBox2.UseVisualStyleBackColor = false;
+            this.mansion_artEnabled.AutoSize = true;
+            this.mansion_artEnabled.BackColor = System.Drawing.Color.Black;
+            this.mansion_artEnabled.ForeColor = System.Drawing.Color.White;
+            this.mansion_artEnabled.Location = new System.Drawing.Point(97, 883);
+            this.mansion_artEnabled.Name = "mansion_artEnabled";
+            this.mansion_artEnabled.Size = new System.Drawing.Size(65, 17);
+            this.mansion_artEnabled.TabIndex = 81;
+            this.mansion_artEnabled.Text = "Enabled";
+            this.mansion_artEnabled.UseVisualStyleBackColor = false;
             // 
             // label49
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(94, 947);
+            this.label49.Location = new System.Drawing.Point(94, 948);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(152, 13);
             this.label49.TabIndex = 80;
             this.label49.Text = "Time To Completion (Seconds)";
             // 
-            // numericUpDown7
+            // mansion_artMissionTime
             // 
-            this.numericUpDown7.BackColor = System.Drawing.Color.Black;
-            this.numericUpDown7.DecimalPlaces = 3;
-            this.numericUpDown7.ForeColor = System.Drawing.Color.White;
-            this.numericUpDown7.Location = new System.Drawing.Point(12, 945);
-            this.numericUpDown7.Minimum = new decimal(new int[] {
+            this.mansion_artMissionTime.BackColor = System.Drawing.Color.Black;
+            this.mansion_artMissionTime.DecimalPlaces = 3;
+            this.mansion_artMissionTime.ForeColor = System.Drawing.Color.White;
+            this.mansion_artMissionTime.Location = new System.Drawing.Point(12, 946);
+            this.mansion_artMissionTime.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             -2147483648});
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown7.TabIndex = 79;
+            this.mansion_artMissionTime.Name = "mansion_artMissionTime";
+            this.mansion_artMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.mansion_artMissionTime.TabIndex = 79;
             // 
             // label50
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(94, 924);
+            this.label50.Location = new System.Drawing.Point(94, 925);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(102, 13);
             this.label50.TabIndex = 78;
             this.label50.Text = "Time Left (Seconds)";
             // 
-            // numericUpDown8
+            // mansion_artTimeLeft
             // 
-            this.numericUpDown8.BackColor = System.Drawing.Color.Black;
-            this.numericUpDown8.DecimalPlaces = 3;
-            this.numericUpDown8.ForeColor = System.Drawing.Color.White;
-            this.numericUpDown8.Location = new System.Drawing.Point(12, 922);
-            this.numericUpDown8.Minimum = new decimal(new int[] {
+            this.mansion_artTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.mansion_artTimeLeft.DecimalPlaces = 3;
+            this.mansion_artTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.mansion_artTimeLeft.Location = new System.Drawing.Point(12, 923);
+            this.mansion_artTimeLeft.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             -2147483648});
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown8.TabIndex = 77;
+            this.mansion_artTimeLeft.Name = "mansion_artTimeLeft";
+            this.mansion_artTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.mansion_artTimeLeft.TabIndex = 77;
             // 
-            // numericUpDown9
+            // mansion_artScore
             // 
-            this.numericUpDown9.BackColor = System.Drawing.Color.Black;
-            this.numericUpDown9.ForeColor = System.Drawing.Color.White;
-            this.numericUpDown9.Location = new System.Drawing.Point(12, 899);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(76, 20);
-            this.numericUpDown9.TabIndex = 76;
+            this.mansion_artScore.BackColor = System.Drawing.Color.Black;
+            this.mansion_artScore.ForeColor = System.Drawing.Color.White;
+            this.mansion_artScore.Location = new System.Drawing.Point(12, 900);
+            this.mansion_artScore.Name = "mansion_artScore";
+            this.mansion_artScore.Size = new System.Drawing.Size(76, 20);
+            this.mansion_artScore.TabIndex = 76;
             // 
             // label51
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(94, 901);
+            this.label51.Location = new System.Drawing.Point(94, 902);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(127, 13);
             this.label51.TabIndex = 75;
@@ -1796,11 +2005,1056 @@
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(9, 883);
+            this.label52.Location = new System.Drawing.Point(9, 884);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(83, 13);
+            this.label52.Size = new System.Drawing.Size(74, 13);
             this.label52.TabIndex = 74;
-            this.label52.Text = "Mansion Pool";
+            this.label52.Text = "Mansion Art";
+            // 
+            // marina_art_backEnabled
+            // 
+            this.marina_art_backEnabled.AutoSize = true;
+            this.marina_art_backEnabled.BackColor = System.Drawing.Color.Black;
+            this.marina_art_backEnabled.ForeColor = System.Drawing.Color.White;
+            this.marina_art_backEnabled.Location = new System.Drawing.Point(107, 980);
+            this.marina_art_backEnabled.Name = "marina_art_backEnabled";
+            this.marina_art_backEnabled.Size = new System.Drawing.Size(65, 17);
+            this.marina_art_backEnabled.TabIndex = 89;
+            this.marina_art_backEnabled.Text = "Enabled";
+            this.marina_art_backEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.White;
+            this.label53.Location = new System.Drawing.Point(94, 1045);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(152, 13);
+            this.label53.TabIndex = 88;
+            this.label53.Text = "Time To Completion (Seconds)";
+            // 
+            // marina_art_backMissionTime
+            // 
+            this.marina_art_backMissionTime.BackColor = System.Drawing.Color.Black;
+            this.marina_art_backMissionTime.DecimalPlaces = 3;
+            this.marina_art_backMissionTime.ForeColor = System.Drawing.Color.White;
+            this.marina_art_backMissionTime.Location = new System.Drawing.Point(12, 1043);
+            this.marina_art_backMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.marina_art_backMissionTime.Name = "marina_art_backMissionTime";
+            this.marina_art_backMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.marina_art_backMissionTime.TabIndex = 87;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.White;
+            this.label54.Location = new System.Drawing.Point(94, 1022);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(102, 13);
+            this.label54.TabIndex = 86;
+            this.label54.Text = "Time Left (Seconds)";
+            // 
+            // marina_art_backTimeLeft
+            // 
+            this.marina_art_backTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.marina_art_backTimeLeft.DecimalPlaces = 3;
+            this.marina_art_backTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.marina_art_backTimeLeft.Location = new System.Drawing.Point(12, 1020);
+            this.marina_art_backTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.marina_art_backTimeLeft.Name = "marina_art_backTimeLeft";
+            this.marina_art_backTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.marina_art_backTimeLeft.TabIndex = 85;
+            // 
+            // marina_art_backScore
+            // 
+            this.marina_art_backScore.BackColor = System.Drawing.Color.Black;
+            this.marina_art_backScore.ForeColor = System.Drawing.Color.White;
+            this.marina_art_backScore.Location = new System.Drawing.Point(12, 997);
+            this.marina_art_backScore.Name = "marina_art_backScore";
+            this.marina_art_backScore.Size = new System.Drawing.Size(76, 20);
+            this.marina_art_backScore.TabIndex = 84;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.White;
+            this.label55.Location = new System.Drawing.Point(94, 999);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(127, 13);
+            this.label55.TabIndex = 83;
+            this.label55.Text = "Score (Targets Collected)";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.White;
+            this.label56.Location = new System.Drawing.Point(9, 981);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(92, 13);
+            this.label56.TabIndex = 82;
+            this.label56.Text = "Marina Art Pt 2";
+            // 
+            // marina_toolsEnabled
+            // 
+            this.marina_toolsEnabled.AutoSize = true;
+            this.marina_toolsEnabled.BackColor = System.Drawing.Color.Black;
+            this.marina_toolsEnabled.ForeColor = System.Drawing.Color.White;
+            this.marina_toolsEnabled.Location = new System.Drawing.Point(97, 1076);
+            this.marina_toolsEnabled.Name = "marina_toolsEnabled";
+            this.marina_toolsEnabled.Size = new System.Drawing.Size(65, 17);
+            this.marina_toolsEnabled.TabIndex = 97;
+            this.marina_toolsEnabled.Text = "Enabled";
+            this.marina_toolsEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.White;
+            this.label57.Location = new System.Drawing.Point(94, 1141);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(152, 13);
+            this.label57.TabIndex = 96;
+            this.label57.Text = "Time To Completion (Seconds)";
+            // 
+            // marina_toolsMissionTime
+            // 
+            this.marina_toolsMissionTime.BackColor = System.Drawing.Color.Black;
+            this.marina_toolsMissionTime.DecimalPlaces = 3;
+            this.marina_toolsMissionTime.ForeColor = System.Drawing.Color.White;
+            this.marina_toolsMissionTime.Location = new System.Drawing.Point(12, 1139);
+            this.marina_toolsMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.marina_toolsMissionTime.Name = "marina_toolsMissionTime";
+            this.marina_toolsMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.marina_toolsMissionTime.TabIndex = 95;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.White;
+            this.label58.Location = new System.Drawing.Point(94, 1118);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(102, 13);
+            this.label58.TabIndex = 94;
+            this.label58.Text = "Time Left (Seconds)";
+            // 
+            // marina_toolsTimeLeft
+            // 
+            this.marina_toolsTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.marina_toolsTimeLeft.DecimalPlaces = 3;
+            this.marina_toolsTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.marina_toolsTimeLeft.Location = new System.Drawing.Point(12, 1116);
+            this.marina_toolsTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.marina_toolsTimeLeft.Name = "marina_toolsTimeLeft";
+            this.marina_toolsTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.marina_toolsTimeLeft.TabIndex = 93;
+            // 
+            // marina_toolsScore
+            // 
+            this.marina_toolsScore.BackColor = System.Drawing.Color.Black;
+            this.marina_toolsScore.ForeColor = System.Drawing.Color.White;
+            this.marina_toolsScore.Location = new System.Drawing.Point(12, 1093);
+            this.marina_toolsScore.Name = "marina_toolsScore";
+            this.marina_toolsScore.Size = new System.Drawing.Size(76, 20);
+            this.marina_toolsScore.TabIndex = 92;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.ForeColor = System.Drawing.Color.White;
+            this.label59.Location = new System.Drawing.Point(94, 1095);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(127, 13);
+            this.label59.TabIndex = 91;
+            this.label59.Text = "Score (Targets Collected)";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.White;
+            this.label60.Location = new System.Drawing.Point(9, 1077);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(80, 13);
+            this.label60.TabIndex = 90;
+            this.label60.Text = "Marina Tools";
+            // 
+            // mansion_fraudEnabled
+            // 
+            this.mansion_fraudEnabled.AutoSize = true;
+            this.mansion_fraudEnabled.BackColor = System.Drawing.Color.Black;
+            this.mansion_fraudEnabled.ForeColor = System.Drawing.Color.White;
+            this.mansion_fraudEnabled.Location = new System.Drawing.Point(105, 1173);
+            this.mansion_fraudEnabled.Name = "mansion_fraudEnabled";
+            this.mansion_fraudEnabled.Size = new System.Drawing.Size(65, 17);
+            this.mansion_fraudEnabled.TabIndex = 105;
+            this.mansion_fraudEnabled.Text = "Enabled";
+            this.mansion_fraudEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.White;
+            this.label61.Location = new System.Drawing.Point(94, 1237);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(152, 13);
+            this.label61.TabIndex = 104;
+            this.label61.Text = "Time To Completion (Seconds)";
+            // 
+            // mansion_fraudMissionTime
+            // 
+            this.mansion_fraudMissionTime.BackColor = System.Drawing.Color.Black;
+            this.mansion_fraudMissionTime.DecimalPlaces = 3;
+            this.mansion_fraudMissionTime.ForeColor = System.Drawing.Color.White;
+            this.mansion_fraudMissionTime.Location = new System.Drawing.Point(12, 1235);
+            this.mansion_fraudMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_fraudMissionTime.Name = "mansion_fraudMissionTime";
+            this.mansion_fraudMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.mansion_fraudMissionTime.TabIndex = 103;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.White;
+            this.label62.Location = new System.Drawing.Point(94, 1214);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(102, 13);
+            this.label62.TabIndex = 102;
+            this.label62.Text = "Time Left (Seconds)";
+            // 
+            // mansion_fraudTimeLeft
+            // 
+            this.mansion_fraudTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.mansion_fraudTimeLeft.DecimalPlaces = 3;
+            this.mansion_fraudTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.mansion_fraudTimeLeft.Location = new System.Drawing.Point(12, 1212);
+            this.mansion_fraudTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_fraudTimeLeft.Name = "mansion_fraudTimeLeft";
+            this.mansion_fraudTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.mansion_fraudTimeLeft.TabIndex = 101;
+            // 
+            // mansion_fraudScore
+            // 
+            this.mansion_fraudScore.BackColor = System.Drawing.Color.Black;
+            this.mansion_fraudScore.ForeColor = System.Drawing.Color.White;
+            this.mansion_fraudScore.Location = new System.Drawing.Point(12, 1189);
+            this.mansion_fraudScore.Name = "mansion_fraudScore";
+            this.mansion_fraudScore.Size = new System.Drawing.Size(76, 20);
+            this.mansion_fraudScore.TabIndex = 100;
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.White;
+            this.label63.Location = new System.Drawing.Point(94, 1191);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(127, 13);
+            this.label63.TabIndex = 99;
+            this.label63.Text = "Score (Targets Collected)";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.White;
+            this.label64.Location = new System.Drawing.Point(9, 1173);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(90, 13);
+            this.label64.TabIndex = 98;
+            this.label64.Text = "Mansion Fraud";
+            // 
+            // caveisland_computersEnabled
+            // 
+            this.caveisland_computersEnabled.AutoSize = true;
+            this.caveisland_computersEnabled.BackColor = System.Drawing.Color.Black;
+            this.caveisland_computersEnabled.ForeColor = System.Drawing.Color.White;
+            this.caveisland_computersEnabled.Location = new System.Drawing.Point(148, 1270);
+            this.caveisland_computersEnabled.Name = "caveisland_computersEnabled";
+            this.caveisland_computersEnabled.Size = new System.Drawing.Size(65, 17);
+            this.caveisland_computersEnabled.TabIndex = 113;
+            this.caveisland_computersEnabled.Text = "Enabled";
+            this.caveisland_computersEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label65.ForeColor = System.Drawing.Color.White;
+            this.label65.Location = new System.Drawing.Point(94, 1334);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(152, 13);
+            this.label65.TabIndex = 112;
+            this.label65.Text = "Time To Completion (Seconds)";
+            // 
+            // caveisland_computersMissionTime
+            // 
+            this.caveisland_computersMissionTime.BackColor = System.Drawing.Color.Black;
+            this.caveisland_computersMissionTime.DecimalPlaces = 3;
+            this.caveisland_computersMissionTime.ForeColor = System.Drawing.Color.White;
+            this.caveisland_computersMissionTime.Location = new System.Drawing.Point(12, 1332);
+            this.caveisland_computersMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_computersMissionTime.Name = "caveisland_computersMissionTime";
+            this.caveisland_computersMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_computersMissionTime.TabIndex = 111;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.White;
+            this.label66.Location = new System.Drawing.Point(94, 1311);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(102, 13);
+            this.label66.TabIndex = 110;
+            this.label66.Text = "Time Left (Seconds)";
+            // 
+            // caveisland_computersTimeLeft
+            // 
+            this.caveisland_computersTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.caveisland_computersTimeLeft.DecimalPlaces = 3;
+            this.caveisland_computersTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.caveisland_computersTimeLeft.Location = new System.Drawing.Point(12, 1309);
+            this.caveisland_computersTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_computersTimeLeft.Name = "caveisland_computersTimeLeft";
+            this.caveisland_computersTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_computersTimeLeft.TabIndex = 109;
+            // 
+            // caveisland_computersScore
+            // 
+            this.caveisland_computersScore.BackColor = System.Drawing.Color.Black;
+            this.caveisland_computersScore.ForeColor = System.Drawing.Color.White;
+            this.caveisland_computersScore.Location = new System.Drawing.Point(12, 1286);
+            this.caveisland_computersScore.Name = "caveisland_computersScore";
+            this.caveisland_computersScore.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_computersScore.TabIndex = 108;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.ForeColor = System.Drawing.Color.White;
+            this.label67.Location = new System.Drawing.Point(94, 1288);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(127, 13);
+            this.label67.TabIndex = 107;
+            this.label67.Text = "Score (Targets Collected)";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.Color.White;
+            this.label68.Location = new System.Drawing.Point(9, 1270);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(133, 13);
+            this.label68.TabIndex = 106;
+            this.label68.Text = "Hollowrock Computers";
+            // 
+            // mansion_safeEnabled
+            // 
+            this.mansion_safeEnabled.AutoSize = true;
+            this.mansion_safeEnabled.BackColor = System.Drawing.Color.Black;
+            this.mansion_safeEnabled.ForeColor = System.Drawing.Color.White;
+            this.mansion_safeEnabled.Location = new System.Drawing.Point(97, 1366);
+            this.mansion_safeEnabled.Name = "mansion_safeEnabled";
+            this.mansion_safeEnabled.Size = new System.Drawing.Size(65, 17);
+            this.mansion_safeEnabled.TabIndex = 121;
+            this.mansion_safeEnabled.Text = "Enabled";
+            this.mansion_safeEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.White;
+            this.label69.Location = new System.Drawing.Point(94, 1431);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(152, 13);
+            this.label69.TabIndex = 120;
+            this.label69.Text = "Time To Completion (Seconds)";
+            // 
+            // mansion_safeMissionTime
+            // 
+            this.mansion_safeMissionTime.BackColor = System.Drawing.Color.Black;
+            this.mansion_safeMissionTime.DecimalPlaces = 3;
+            this.mansion_safeMissionTime.ForeColor = System.Drawing.Color.White;
+            this.mansion_safeMissionTime.Location = new System.Drawing.Point(12, 1429);
+            this.mansion_safeMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_safeMissionTime.Name = "mansion_safeMissionTime";
+            this.mansion_safeMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.mansion_safeMissionTime.TabIndex = 119;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.White;
+            this.label70.Location = new System.Drawing.Point(94, 1408);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(102, 13);
+            this.label70.TabIndex = 118;
+            this.label70.Text = "Time Left (Seconds)";
+            // 
+            // mansion_safeTimeLeft
+            // 
+            this.mansion_safeTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.mansion_safeTimeLeft.DecimalPlaces = 3;
+            this.mansion_safeTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.mansion_safeTimeLeft.Location = new System.Drawing.Point(12, 1406);
+            this.mansion_safeTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_safeTimeLeft.Name = "mansion_safeTimeLeft";
+            this.mansion_safeTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.mansion_safeTimeLeft.TabIndex = 117;
+            // 
+            // mansion_safeScore
+            // 
+            this.mansion_safeScore.BackColor = System.Drawing.Color.Black;
+            this.mansion_safeScore.ForeColor = System.Drawing.Color.White;
+            this.mansion_safeScore.Location = new System.Drawing.Point(12, 1383);
+            this.mansion_safeScore.Name = "mansion_safeScore";
+            this.mansion_safeScore.Size = new System.Drawing.Size(76, 20);
+            this.mansion_safeScore.TabIndex = 116;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.ForeColor = System.Drawing.Color.White;
+            this.label71.Location = new System.Drawing.Point(94, 1385);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(127, 13);
+            this.label71.TabIndex = 115;
+            this.label71.Text = "Score (Targets Collected)";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.ForeColor = System.Drawing.Color.White;
+            this.label72.Location = new System.Drawing.Point(9, 1367);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(84, 13);
+            this.label72.TabIndex = 114;
+            this.label72.Text = "Mansion Safe";
+            // 
+            // mansion_raceEnabled
+            // 
+            this.mansion_raceEnabled.AutoSize = true;
+            this.mansion_raceEnabled.BackColor = System.Drawing.Color.Black;
+            this.mansion_raceEnabled.ForeColor = System.Drawing.Color.White;
+            this.mansion_raceEnabled.Location = new System.Drawing.Point(103, 1462);
+            this.mansion_raceEnabled.Name = "mansion_raceEnabled";
+            this.mansion_raceEnabled.Size = new System.Drawing.Size(65, 17);
+            this.mansion_raceEnabled.TabIndex = 129;
+            this.mansion_raceEnabled.Text = "Enabled";
+            this.mansion_raceEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.White;
+            this.label73.Location = new System.Drawing.Point(94, 1527);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(152, 13);
+            this.label73.TabIndex = 128;
+            this.label73.Text = "Time To Completion (Seconds)";
+            // 
+            // mansion_raceMissionTime
+            // 
+            this.mansion_raceMissionTime.BackColor = System.Drawing.Color.Black;
+            this.mansion_raceMissionTime.DecimalPlaces = 3;
+            this.mansion_raceMissionTime.ForeColor = System.Drawing.Color.White;
+            this.mansion_raceMissionTime.Location = new System.Drawing.Point(12, 1525);
+            this.mansion_raceMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_raceMissionTime.Name = "mansion_raceMissionTime";
+            this.mansion_raceMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.mansion_raceMissionTime.TabIndex = 127;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.ForeColor = System.Drawing.Color.White;
+            this.label74.Location = new System.Drawing.Point(94, 1504);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(102, 13);
+            this.label74.TabIndex = 126;
+            this.label74.Text = "Time Left (Seconds)";
+            // 
+            // mansion_raceTimeLeft
+            // 
+            this.mansion_raceTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.mansion_raceTimeLeft.DecimalPlaces = 3;
+            this.mansion_raceTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.mansion_raceTimeLeft.Location = new System.Drawing.Point(12, 1502);
+            this.mansion_raceTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.mansion_raceTimeLeft.Name = "mansion_raceTimeLeft";
+            this.mansion_raceTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.mansion_raceTimeLeft.TabIndex = 125;
+            // 
+            // mansion_raceScore
+            // 
+            this.mansion_raceScore.BackColor = System.Drawing.Color.Black;
+            this.mansion_raceScore.ForeColor = System.Drawing.Color.White;
+            this.mansion_raceScore.Location = new System.Drawing.Point(12, 1479);
+            this.mansion_raceScore.Name = "mansion_raceScore";
+            this.mansion_raceScore.Size = new System.Drawing.Size(76, 20);
+            this.mansion_raceScore.TabIndex = 124;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.ForeColor = System.Drawing.Color.White;
+            this.label75.Location = new System.Drawing.Point(94, 1481);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(127, 13);
+            this.label75.TabIndex = 123;
+            this.label75.Text = "Score (Targets Collected)";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.ForeColor = System.Drawing.Color.White;
+            this.label76.Location = new System.Drawing.Point(9, 1463);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(88, 13);
+            this.label76.TabIndex = 122;
+            this.label76.Text = "Mansion Race";
+            // 
+            // lee_powerplantEnabled
+            // 
+            this.lee_powerplantEnabled.AutoSize = true;
+            this.lee_powerplantEnabled.BackColor = System.Drawing.Color.Black;
+            this.lee_powerplantEnabled.ForeColor = System.Drawing.Color.White;
+            this.lee_powerplantEnabled.Location = new System.Drawing.Point(110, 1558);
+            this.lee_powerplantEnabled.Name = "lee_powerplantEnabled";
+            this.lee_powerplantEnabled.Size = new System.Drawing.Size(65, 17);
+            this.lee_powerplantEnabled.TabIndex = 137;
+            this.lee_powerplantEnabled.Text = "Enabled";
+            this.lee_powerplantEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.Color.White;
+            this.label78.Location = new System.Drawing.Point(94, 1623);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(152, 13);
+            this.label78.TabIndex = 136;
+            this.label78.Text = "Time To Completion (Seconds)";
+            // 
+            // lee_powerplantMissionTime
+            // 
+            this.lee_powerplantMissionTime.BackColor = System.Drawing.Color.Black;
+            this.lee_powerplantMissionTime.DecimalPlaces = 3;
+            this.lee_powerplantMissionTime.ForeColor = System.Drawing.Color.White;
+            this.lee_powerplantMissionTime.Location = new System.Drawing.Point(12, 1621);
+            this.lee_powerplantMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.lee_powerplantMissionTime.Name = "lee_powerplantMissionTime";
+            this.lee_powerplantMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.lee_powerplantMissionTime.TabIndex = 135;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.White;
+            this.label79.Location = new System.Drawing.Point(94, 1600);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(102, 13);
+            this.label79.TabIndex = 134;
+            this.label79.Text = "Time Left (Seconds)";
+            // 
+            // lee_powerplantTimeLeft
+            // 
+            this.lee_powerplantTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.lee_powerplantTimeLeft.DecimalPlaces = 3;
+            this.lee_powerplantTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.lee_powerplantTimeLeft.Location = new System.Drawing.Point(12, 1598);
+            this.lee_powerplantTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.lee_powerplantTimeLeft.Name = "lee_powerplantTimeLeft";
+            this.lee_powerplantTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.lee_powerplantTimeLeft.TabIndex = 133;
+            // 
+            // lee_powerplantScore
+            // 
+            this.lee_powerplantScore.BackColor = System.Drawing.Color.Black;
+            this.lee_powerplantScore.ForeColor = System.Drawing.Color.White;
+            this.lee_powerplantScore.Location = new System.Drawing.Point(12, 1575);
+            this.lee_powerplantScore.Name = "lee_powerplantScore";
+            this.lee_powerplantScore.Size = new System.Drawing.Size(76, 20);
+            this.lee_powerplantScore.TabIndex = 132;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.White;
+            this.label80.Location = new System.Drawing.Point(94, 1577);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(127, 13);
+            this.label80.TabIndex = 131;
+            this.label80.Text = "Score (Targets Collected)";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.White;
+            this.label81.Location = new System.Drawing.Point(9, 1559);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(95, 13);
+            this.label81.TabIndex = 130;
+            this.label81.Text = "Lee Powerplant";
+            // 
+            // caveisland_propaneEnabled
+            // 
+            this.caveisland_propaneEnabled.AutoSize = true;
+            this.caveisland_propaneEnabled.BackColor = System.Drawing.Color.Black;
+            this.caveisland_propaneEnabled.ForeColor = System.Drawing.Color.White;
+            this.caveisland_propaneEnabled.Location = new System.Drawing.Point(136, 1655);
+            this.caveisland_propaneEnabled.Name = "caveisland_propaneEnabled";
+            this.caveisland_propaneEnabled.Size = new System.Drawing.Size(65, 17);
+            this.caveisland_propaneEnabled.TabIndex = 145;
+            this.caveisland_propaneEnabled.Text = "Enabled";
+            this.caveisland_propaneEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Location = new System.Drawing.Point(94, 1720);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(152, 13);
+            this.label82.TabIndex = 144;
+            this.label82.Text = "Time To Completion (Seconds)";
+            // 
+            // caveisland_propaneMissionTime
+            // 
+            this.caveisland_propaneMissionTime.BackColor = System.Drawing.Color.Black;
+            this.caveisland_propaneMissionTime.DecimalPlaces = 3;
+            this.caveisland_propaneMissionTime.ForeColor = System.Drawing.Color.White;
+            this.caveisland_propaneMissionTime.Location = new System.Drawing.Point(12, 1718);
+            this.caveisland_propaneMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_propaneMissionTime.Name = "caveisland_propaneMissionTime";
+            this.caveisland_propaneMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_propaneMissionTime.TabIndex = 143;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.White;
+            this.label83.Location = new System.Drawing.Point(94, 1697);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(102, 13);
+            this.label83.TabIndex = 142;
+            this.label83.Text = "Time Left (Seconds)";
+            // 
+            // caveisland_propaneTimeLeft
+            // 
+            this.caveisland_propaneTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.caveisland_propaneTimeLeft.DecimalPlaces = 3;
+            this.caveisland_propaneTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.caveisland_propaneTimeLeft.Location = new System.Drawing.Point(12, 1695);
+            this.caveisland_propaneTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_propaneTimeLeft.Name = "caveisland_propaneTimeLeft";
+            this.caveisland_propaneTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_propaneTimeLeft.TabIndex = 141;
+            // 
+            // caveisland_propaneScore
+            // 
+            this.caveisland_propaneScore.BackColor = System.Drawing.Color.Black;
+            this.caveisland_propaneScore.ForeColor = System.Drawing.Color.White;
+            this.caveisland_propaneScore.Location = new System.Drawing.Point(12, 1672);
+            this.caveisland_propaneScore.Name = "caveisland_propaneScore";
+            this.caveisland_propaneScore.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_propaneScore.TabIndex = 140;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.White;
+            this.label84.Location = new System.Drawing.Point(94, 1674);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(127, 13);
+            this.label84.TabIndex = 139;
+            this.label84.Text = "Score (Targets Collected)";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.ForeColor = System.Drawing.Color.White;
+            this.label85.Location = new System.Drawing.Point(9, 1656);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(121, 13);
+            this.label85.TabIndex = 138;
+            this.label85.Text = "Hollowrock Propane";
+            // 
+            // caveisland_dishesEnabled
+            // 
+            this.caveisland_dishesEnabled.AutoSize = true;
+            this.caveisland_dishesEnabled.BackColor = System.Drawing.Color.Black;
+            this.caveisland_dishesEnabled.ForeColor = System.Drawing.Color.White;
+            this.caveisland_dishesEnabled.Location = new System.Drawing.Point(127, 1752);
+            this.caveisland_dishesEnabled.Name = "caveisland_dishesEnabled";
+            this.caveisland_dishesEnabled.Size = new System.Drawing.Size(65, 17);
+            this.caveisland_dishesEnabled.TabIndex = 153;
+            this.caveisland_dishesEnabled.Text = "Enabled";
+            this.caveisland_dishesEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.ForeColor = System.Drawing.Color.White;
+            this.label86.Location = new System.Drawing.Point(94, 1817);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(152, 13);
+            this.label86.TabIndex = 152;
+            this.label86.Text = "Time To Completion (Seconds)";
+            // 
+            // caveisland_dishesMissionTime
+            // 
+            this.caveisland_dishesMissionTime.BackColor = System.Drawing.Color.Black;
+            this.caveisland_dishesMissionTime.DecimalPlaces = 3;
+            this.caveisland_dishesMissionTime.ForeColor = System.Drawing.Color.White;
+            this.caveisland_dishesMissionTime.Location = new System.Drawing.Point(12, 1815);
+            this.caveisland_dishesMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_dishesMissionTime.Name = "caveisland_dishesMissionTime";
+            this.caveisland_dishesMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_dishesMissionTime.TabIndex = 151;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.ForeColor = System.Drawing.Color.White;
+            this.label87.Location = new System.Drawing.Point(94, 1794);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(102, 13);
+            this.label87.TabIndex = 150;
+            this.label87.Text = "Time Left (Seconds)";
+            // 
+            // caveisland_dishesTimeLeft
+            // 
+            this.caveisland_dishesTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.caveisland_dishesTimeLeft.DecimalPlaces = 3;
+            this.caveisland_dishesTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.caveisland_dishesTimeLeft.Location = new System.Drawing.Point(12, 1792);
+            this.caveisland_dishesTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.caveisland_dishesTimeLeft.Name = "caveisland_dishesTimeLeft";
+            this.caveisland_dishesTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_dishesTimeLeft.TabIndex = 149;
+            // 
+            // caveisland_dishesScore
+            // 
+            this.caveisland_dishesScore.BackColor = System.Drawing.Color.Black;
+            this.caveisland_dishesScore.ForeColor = System.Drawing.Color.White;
+            this.caveisland_dishesScore.Location = new System.Drawing.Point(12, 1769);
+            this.caveisland_dishesScore.Name = "caveisland_dishesScore";
+            this.caveisland_dishesScore.Size = new System.Drawing.Size(76, 20);
+            this.caveisland_dishesScore.TabIndex = 148;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.ForeColor = System.Drawing.Color.White;
+            this.label88.Location = new System.Drawing.Point(94, 1771);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(127, 13);
+            this.label88.TabIndex = 147;
+            this.label88.Text = "Score (Targets Collected)";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.ForeColor = System.Drawing.Color.White;
+            this.label89.Location = new System.Drawing.Point(9, 1753);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(112, 13);
+            this.label89.TabIndex = 146;
+            this.label89.Text = "Hollowrock Dishes";
+            // 
+            // lee_floodingEnabled
+            // 
+            this.lee_floodingEnabled.AutoSize = true;
+            this.lee_floodingEnabled.BackColor = System.Drawing.Color.Black;
+            this.lee_floodingEnabled.ForeColor = System.Drawing.Color.White;
+            this.lee_floodingEnabled.Location = new System.Drawing.Point(97, 1848);
+            this.lee_floodingEnabled.Name = "lee_floodingEnabled";
+            this.lee_floodingEnabled.Size = new System.Drawing.Size(65, 17);
+            this.lee_floodingEnabled.TabIndex = 161;
+            this.lee_floodingEnabled.Text = "Enabled";
+            this.lee_floodingEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Location = new System.Drawing.Point(94, 1914);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(152, 13);
+            this.label90.TabIndex = 160;
+            this.label90.Text = "Time To Completion (Seconds)";
+            // 
+            // lee_floodingMissionTime
+            // 
+            this.lee_floodingMissionTime.BackColor = System.Drawing.Color.Black;
+            this.lee_floodingMissionTime.DecimalPlaces = 3;
+            this.lee_floodingMissionTime.ForeColor = System.Drawing.Color.White;
+            this.lee_floodingMissionTime.Location = new System.Drawing.Point(12, 1912);
+            this.lee_floodingMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.lee_floodingMissionTime.Name = "lee_floodingMissionTime";
+            this.lee_floodingMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.lee_floodingMissionTime.TabIndex = 159;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.ForeColor = System.Drawing.Color.White;
+            this.label91.Location = new System.Drawing.Point(94, 1891);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(102, 13);
+            this.label91.TabIndex = 158;
+            this.label91.Text = "Time Left (Seconds)";
+            // 
+            // lee_floodingTimeLeft
+            // 
+            this.lee_floodingTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.lee_floodingTimeLeft.DecimalPlaces = 3;
+            this.lee_floodingTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.lee_floodingTimeLeft.Location = new System.Drawing.Point(12, 1889);
+            this.lee_floodingTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.lee_floodingTimeLeft.Name = "lee_floodingTimeLeft";
+            this.lee_floodingTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.lee_floodingTimeLeft.TabIndex = 157;
+            // 
+            // lee_floodingScore
+            // 
+            this.lee_floodingScore.BackColor = System.Drawing.Color.Black;
+            this.lee_floodingScore.ForeColor = System.Drawing.Color.White;
+            this.lee_floodingScore.Location = new System.Drawing.Point(12, 1866);
+            this.lee_floodingScore.Name = "lee_floodingScore";
+            this.lee_floodingScore.Size = new System.Drawing.Size(76, 20);
+            this.lee_floodingScore.TabIndex = 156;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.Color.White;
+            this.label92.Location = new System.Drawing.Point(94, 1868);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(127, 13);
+            this.label92.TabIndex = 155;
+            this.label92.Text = "Score (Targets Collected)";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.ForeColor = System.Drawing.Color.White;
+            this.label93.Location = new System.Drawing.Point(9, 1850);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(80, 13);
+            this.label93.TabIndex = 154;
+            this.label93.Text = "Lee Flooding";
+            // 
+            // frustrum_chaseEnabled
+            // 
+            this.frustrum_chaseEnabled.AutoSize = true;
+            this.frustrum_chaseEnabled.BackColor = System.Drawing.Color.Black;
+            this.frustrum_chaseEnabled.ForeColor = System.Drawing.Color.White;
+            this.frustrum_chaseEnabled.Location = new System.Drawing.Point(109, 1946);
+            this.frustrum_chaseEnabled.Name = "frustrum_chaseEnabled";
+            this.frustrum_chaseEnabled.Size = new System.Drawing.Size(65, 17);
+            this.frustrum_chaseEnabled.TabIndex = 169;
+            this.frustrum_chaseEnabled.Text = "Enabled";
+            this.frustrum_chaseEnabled.UseVisualStyleBackColor = false;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.ForeColor = System.Drawing.Color.White;
+            this.label94.Location = new System.Drawing.Point(94, 2011);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(152, 13);
+            this.label94.TabIndex = 168;
+            this.label94.Text = "Time To Completion (Seconds)";
+            // 
+            // frustrum_chaseMissionTime
+            // 
+            this.frustrum_chaseMissionTime.BackColor = System.Drawing.Color.Black;
+            this.frustrum_chaseMissionTime.DecimalPlaces = 3;
+            this.frustrum_chaseMissionTime.ForeColor = System.Drawing.Color.White;
+            this.frustrum_chaseMissionTime.Location = new System.Drawing.Point(12, 2009);
+            this.frustrum_chaseMissionTime.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.frustrum_chaseMissionTime.Name = "frustrum_chaseMissionTime";
+            this.frustrum_chaseMissionTime.Size = new System.Drawing.Size(76, 20);
+            this.frustrum_chaseMissionTime.TabIndex = 167;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.ForeColor = System.Drawing.Color.White;
+            this.label95.Location = new System.Drawing.Point(94, 1988);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(102, 13);
+            this.label95.TabIndex = 166;
+            this.label95.Text = "Time Left (Seconds)";
+            // 
+            // frustrum_chaseTimeLeft
+            // 
+            this.frustrum_chaseTimeLeft.BackColor = System.Drawing.Color.Black;
+            this.frustrum_chaseTimeLeft.DecimalPlaces = 3;
+            this.frustrum_chaseTimeLeft.ForeColor = System.Drawing.Color.White;
+            this.frustrum_chaseTimeLeft.Location = new System.Drawing.Point(12, 1986);
+            this.frustrum_chaseTimeLeft.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            -2147483648});
+            this.frustrum_chaseTimeLeft.Name = "frustrum_chaseTimeLeft";
+            this.frustrum_chaseTimeLeft.Size = new System.Drawing.Size(76, 20);
+            this.frustrum_chaseTimeLeft.TabIndex = 165;
+            // 
+            // frustrum_chaseScore
+            // 
+            this.frustrum_chaseScore.BackColor = System.Drawing.Color.Black;
+            this.frustrum_chaseScore.ForeColor = System.Drawing.Color.White;
+            this.frustrum_chaseScore.Location = new System.Drawing.Point(12, 1963);
+            this.frustrum_chaseScore.Name = "frustrum_chaseScore";
+            this.frustrum_chaseScore.Size = new System.Drawing.Size(76, 20);
+            this.frustrum_chaseScore.TabIndex = 164;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.Color.White;
+            this.label96.Location = new System.Drawing.Point(94, 1965);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(127, 13);
+            this.label96.TabIndex = 163;
+            this.label96.Text = "Score (Targets Collected)";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.ForeColor = System.Drawing.Color.White;
+            this.label97.Location = new System.Drawing.Point(9, 1947);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(94, 13);
+            this.label97.TabIndex = 162;
+            this.label97.Text = "Frustrum Chase";
             // 
             // Form1
             // 
@@ -1873,9 +3127,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerMissionTime)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerTimeLeft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lee_towerScore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_artScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_art_backScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.marina_toolsScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_fraudScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_computersScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_safeScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mansion_raceScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_powerplantScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_propaneScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.caveisland_dishesScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lee_floodingScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseMissionTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseTimeLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.frustrum_chaseScore)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1989,16 +3276,16 @@
         private System.Windows.Forms.CheckBox marina_demolishEnabled;
         private System.Windows.Forms.CheckBox marina_carsEnabled;
         private System.Windows.Forms.CheckBox lee_safeEnabled;
-        private System.Windows.Forms.CheckBox marina_poolEnabled;
+        private System.Windows.Forms.CheckBox mansion_poolEnabled;
         private System.Windows.Forms.CheckBox marina_gpsEnabled;
         private System.Windows.Forms.Panel dynamicLevels;
         private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox mansion_artEnabled;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown mansion_artMissionTime;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.NumericUpDown mansion_artTimeLeft;
+        private System.Windows.Forms.NumericUpDown mansion_artScore;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.CheckBox lee_towerEnabled;
@@ -2009,6 +3296,94 @@
         private System.Windows.Forms.NumericUpDown lee_towerScore;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.CheckBox mansion_fraudEnabled;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.NumericUpDown mansion_fraudMissionTime;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.NumericUpDown mansion_fraudTimeLeft;
+        private System.Windows.Forms.NumericUpDown mansion_fraudScore;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.CheckBox marina_toolsEnabled;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.NumericUpDown marina_toolsMissionTime;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.NumericUpDown marina_toolsTimeLeft;
+        private System.Windows.Forms.NumericUpDown marina_toolsScore;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.CheckBox marina_art_backEnabled;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.NumericUpDown marina_art_backMissionTime;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.NumericUpDown marina_art_backTimeLeft;
+        private System.Windows.Forms.NumericUpDown marina_art_backScore;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.CheckBox frustrum_chaseEnabled;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.NumericUpDown frustrum_chaseMissionTime;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.NumericUpDown frustrum_chaseTimeLeft;
+        private System.Windows.Forms.NumericUpDown frustrum_chaseScore;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.CheckBox lee_floodingEnabled;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.NumericUpDown lee_floodingMissionTime;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.NumericUpDown lee_floodingTimeLeft;
+        private System.Windows.Forms.NumericUpDown lee_floodingScore;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.CheckBox caveisland_dishesEnabled;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.NumericUpDown caveisland_dishesMissionTime;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.NumericUpDown caveisland_dishesTimeLeft;
+        private System.Windows.Forms.NumericUpDown caveisland_dishesScore;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.CheckBox caveisland_propaneEnabled;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.NumericUpDown caveisland_propaneMissionTime;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.NumericUpDown caveisland_propaneTimeLeft;
+        private System.Windows.Forms.NumericUpDown caveisland_propaneScore;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.CheckBox lee_powerplantEnabled;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.NumericUpDown lee_powerplantMissionTime;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.NumericUpDown lee_powerplantTimeLeft;
+        private System.Windows.Forms.NumericUpDown lee_powerplantScore;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.CheckBox mansion_raceEnabled;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.NumericUpDown mansion_raceMissionTime;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.NumericUpDown mansion_raceTimeLeft;
+        private System.Windows.Forms.NumericUpDown mansion_raceScore;
+        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.CheckBox mansion_safeEnabled;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.NumericUpDown mansion_safeMissionTime;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.NumericUpDown mansion_safeTimeLeft;
+        private System.Windows.Forms.NumericUpDown mansion_safeScore;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.CheckBox caveisland_computersEnabled;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.NumericUpDown caveisland_computersMissionTime;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.NumericUpDown caveisland_computersTimeLeft;
+        private System.Windows.Forms.NumericUpDown caveisland_computersScore;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label68;
     }
 }
 
